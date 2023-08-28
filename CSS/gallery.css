@@ -1,0 +1,59 @@
+.gallery{
+    background: white;
+}
+
+.gallery .box-container{
+    columns: 25rem 3;
+    gap: 1.5rem;
+}
+
+.gallery .box-container .box{
+    cursor: initial;
+}
+
+.gallery .box-container .box .image{
+    overflow: hidden;
+}
+
+.gallery .box-container .box .image img{
+    width: 100%;
+    border-radius: .5rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.gallery .box-container .box .content{
+    display: flex;
+    background: white;
+    justify-content: space-between;
+}
+
+.gallery .box-container .box .content .info{
+    padding: 1rem 2rem;
+}
+
+.gallery .box-container .box .content .info h4{
+    font-size: 1.7rem;
+}
+
+.gallery .box-container .box .content .info p{
+    font-size: 1.5rem;
+}
+
+.gallery .box-container .box .content i{
+    width: 7.5rem;
+    font-size: 3rem;
+    background: #1E90FF;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    line-height: 6.5rem;
+}
+
+.lg-outer .lg-inner {
+    bottom: 40px !important;
+}
+
+.lg-next, .lg-prev {
+    margin-top: -30px;
+}

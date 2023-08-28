@@ -1,0 +1,359 @@
+.line-container{
+    position: fixed;
+    top: -16%;
+    left: 45%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+svg{
+    display: inline-block;
+    height: 100%;
+}
+
+.section-category{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#Categories h3{
+    font-size: 2rem;
+}
+
+#Categories p{
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+#Categories li{
+    font-size: 1.5rem;
+}
+
+.section-category .image{
+    flex: 1 1 40rem;
+}
+.section-category .S{
+    background:url(slike/Physics.png) no-repeat;
+    
+}
+.section-category .T{
+    background:url(slike/Physics.png) no-repeat;
+}
+.section-category .E{
+    background:url(slike/Physics.png) no-repeat;
+}
+.section-category .A{
+    background:url(slike/Physics.png) no-repeat;
+}
+.section-category .M{
+    background:url(slike/Physics.png) no-repeat;
+}
+
+.section-category .image img{
+    width: 30%;
+    display: flex;
+    margin: auto;
+}
+
+.section-category .content{
+    flex: 1 1 60rem;
+    padding: 2.5rem;
+    border-radius: 10px;
+    
+}
+
+.section-category .content h3{
+    font-size: 2rem;
+}
+
+.section-category .content p{
+    padding: 1rem 0;
+    line-height: 2;
+    font-size: 1.5rem;
+    color: black;
+    background:url(slike/Calculator.png) no-repeat;
+    background-position-x: right;
+}
+
+
+
+.tablinks {
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 100%;
+  }
+
+.tab {
+    overflow: hidden;
+    background-color: #333;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 2rem;
+}
+
+
+.tab button:hover {
+    background-color: #444;
+}
+
+
+.tab button.active {
+    background-color: #444;
+}
+
+
+.tabcontent {
+    display: none;
+    padding: 20px 12px;
+    border-top: none;
+}
+  
+ 
+
+.subjects-box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+    padding: 4rem 0;
+}
+
+.subjects-box-container .box-s{
+    padding: 3rem 2rem;
+    text-align: center;
+    border: 2px solid #95cd13;
+    background: #d7ffae;
+}
+.subjects-box-container .box-t{
+    padding: 3rem 2rem;
+    text-align: center;
+    border: 2px solid #40a1ff;
+    background: #d7e8ff;
+}
+.subjects-box-container .box-e{
+    padding: 3rem 2rem;
+    text-align: center;
+    border: 2px solid #ead900;
+    background: #fffbc5;
+}
+.subjects-box-container .box-a{
+    padding: 3rem 2rem;
+    text-align: center;
+    border: 2px solid #bf2cff;
+    background: #f2d4ff;
+}
+.subjects-box-container .box-m{
+    padding: 3rem 2rem;
+    text-align: center;
+    border: 2px solid #ff2b35;
+    background: #ffd4d6;
+}
+
+.subjects-box-container .box-s:hover{
+    background: #95cd13;
+}
+.subjects-box-container .box-t:hover{
+    background: #40a1ff;
+}
+.subjects-box-container .box-e:hover{
+    background: #ead900;
+}
+.subjects-box-container .box-a:hover{
+    background: #bf2cff;
+}
+.subjects-box-container .box-m:hover{
+    background: #ff2b35;
+}
+
+.subjects-box-container .box-s img,
+.subjects-box-container .box-t img,
+.subjects-box-container .box-e img,
+.subjects-box-container .box-a img,
+.subjects-box-container .box-m img{
+    height: 8rem;
+}
+
+.subjects-box-container .box-s h3,
+.subjects-box-container .box-t h3,
+.subjects-box-container .box-e h3,
+.subjects-box-container .box-a h3,
+.subjects-box-container .box-m h3{
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+.subjects-box-container .box-s p,
+.subjects-box-container .box-t p,
+.subjects-box-container .box-e p,
+.subjects-box-container .box-a p,
+.subjects-box-container .box-m p{
+    padding: 0.5rem 0;
+    text-align: justify;
+}
+
+
+
+.teacher-content{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.teacher-content img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+
+.teacher-content .box{
+    padding: 16px;
+    background: white;
+    border: 1px solid;
+    border-radius: 15px;
+    transition: all .38s ease;
+}
+
+.teacher-content .box-s{
+    padding: 16px;
+    background: white;
+    border: 2px solid #95cd13;
+    border-radius: 15px;
+    transition: all .38s ease;
+}
+.teacher-content .box-t{
+    padding: 16px;
+    background: white;
+    border: 2px solid #40a1ff;
+    border-radius: 15px;
+    transition: all .38s ease;
+}
+.teacher-content .box-e{
+    padding: 16px;
+    background: white;
+    border: 2px solid #ead900;
+    border-radius: 15px;
+    transition: all .38s ease;
+}
+.teacher-content .box-a{
+    padding: 16px;
+    background: white;
+    border: 2px solid #bf2cff;
+    border-radius: 15px;
+    transition: all .38s ease;
+}
+.teacher-content .box-m{
+    padding: 16px;
+    background: white;
+    border: 2px solid #ff2b35;
+    border-radius: 15px;
+    transition: all .38s ease;
+}
+
+.teacher-content .box h3, 
+.teacher-content .box-s h3,
+.teacher-content .box-t h3,
+.teacher-content .box-e h3,
+.teacher-content .box-m h3,
+.teacher-content .box-a h3{
+    font-size: 1.5rem !important;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.teacher-content .box h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+.teacher-content .box-s h5{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+    color: #95cd13;
+}
+.teacher-content .box-t h5{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+    color: #40a1ff;
+}
+.teacher-content .box-e h5{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+    color: #ead900;
+}
+.teacher-content .box-a h5{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+    color: #bf2cff;
+}
+.teacher-content .box-m h5{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+    color: #ff2b35;
+}
+.teacher-content .box p{
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    text-align: justify;
+}
+.teacher-content .box .p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+    .tab button{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:700px){
+    
+    .tab{
+        display: grid;
+    }
+    
+}
